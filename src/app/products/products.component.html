@@ -1,7 +1,8 @@
+<h1 class="text-center mt-3 text-secondary fw-normal">Shop our Array of Products</h1>
 <div class="container">
-    <div class="row g-0 row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5 mb-5 g-3">
-        <div class="col mt-2 mb-2" *ngFor="let card of arr">
-            <app-product-detals></app-product-detals>
+    <div class="row g-0 row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5 mb-5 g-3" data-masonry='{"percentPosition": true }'>
+        <div class="col mt-2 mb-2 " *ngFor="let card of arr">
+            <app-product-detals [item]=card></app-product-detals>
         </div>
     </div>
 </div>

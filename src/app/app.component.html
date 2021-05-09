@@ -1,2 +1,98 @@
-<h1 class="text-center">Product List</h1>
-<app-products></app-products>
+<!-- navbar -->
+<div class="navigation">
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+          <a class="navbar-brand" ><i class="fab fa-apple"></i> Apple</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"   routerLink="/home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  routerLink="/login">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " routerLink="/register">Register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " routerLink="/ourproducts">Our Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " routerLink="/aboutus">About us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</div>
+
+<router-outlet></router-outlet>
+
+<!-- footer -->
+<div class="container-fluid bg-light" id="footer">
+  <div class="container">
+      <div class="row ">
+          <div class="col-2">
+              <ul class="list-group ">
+                  <li class="list-group-item  border-0 fw-bold fs-6 bg-light">Shop and Learn</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">Mac</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">iPad</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">iPhone</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">Watch</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">TV</li>
+              </ul>
+          </div>
+          <div class="col-2">
+              <ul class="list-group">
+                  <li class="list-group-item  border-0 fw-bold fs-6 bg-light">Services</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">Apple Music</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">Apple TV+</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">Apple Arcade</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">iCloud</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">Apple One</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">Apple Books</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">App Store</li>
+              </ul>
+          </div>
+          <div class="col-4">
+              <div class="row justify-content-center">
+                  <div class="col-2"></div>
+                  <div class="col-8">
+                      <ul class="">
+                          <li class="list-group-item  border-0 fw-bold fs-6 bg-light">Apple Store</li>
+                          <li class="list-group-item border-0 text-secondary bg-light">Shop Online</li>
+                          <li class="list-group-item border-0 text-secondary bg-light">Ways to Buy</li>
+                          <li class="list-group-item border-0 text-secondary bg-light">Apple Trade in</li>
+                          <li class="list-group-item border-0 text-secondary bg-light">REcycling Programme</li>
+                      </ul>
+                  </div>
+                  <div class="col-2"></div>
+              </div>
+          </div>
+          <div class="col-2">
+              <ul class="list-group">
+                  <li class="list-group-item  border-0 fw-bold fs-6 bg-light">For Business</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">Apple Music</li>
+                  <li class="list-group-item border-0 fw-bold fs-6 bg-light">For Education</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">Apple Arcade</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">iCloud</li>
+                  <li class="list-group-item border-0 fw-bold fs-6 bg-light">For Work</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">Apple Books</li>
+              </ul>
+          </div>
+          <div class="col-2">
+              <ul class="list-group d-block mx-auto">
+                  <li class="list-group-item  border-0 fw-bold fs-6 bg-light">Shop and Learn</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">Mac</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">iPad</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">iPhone</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">Watch</li>
+                  <li class="list-group-item border-0 text-secondary bg-light">TV</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</div>
