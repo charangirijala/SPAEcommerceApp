@@ -3,6 +3,6 @@
   <div class="card-body">
     <h5 class="card-title">{{item.productTitle}}</h5>
     <p class="card-text">{{item.productDescription}}</p>
-    <a href="#" class="btn btn-info">Add to Cart</a>
+    <button class="btn btn-info" (click)="sendDataToParent(item.productTitle)">Add to Cart</button>
   </div>
 </div>

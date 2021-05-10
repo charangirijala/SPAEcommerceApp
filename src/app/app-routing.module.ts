@@ -25,6 +25,10 @@ const routes: Routes = [
   {
     path:'aboutus',
     component:AboutusComponent,
+  },
+  {
+    path:'',
+    redirectTo:'home',pathMatch:'full',
   }
 ];
 

@@ -38,6 +38,14 @@ export class ProductsComponent{
     productTitle:"MacBook",
     productDescription:"The iPhone is the first smartphone designed and marketed by Apple Inc. After years of rumors and speculation, it was officially announced in January 2007, and was released in the United States in June. Development of the iPhone as a product began in 2005 and continued in complete secrecy until its public unveiling."
   }];
-}
 
+  arrayOfProduct=[];
+  getDataFromChid(productTitle){
+    this.arrayOfProduct.push(productTitle);
+  }
+  test(){
+    console.log(this.arrayOfProduct);
+  }
+  
+}
 
