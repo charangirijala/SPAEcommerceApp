@@ -1,0 +1,32 @@
+[
+    {
+      "imgLink": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-select-2019-family?wid=882&hei=1058&fmt=jpeg&qlt=80&.v=1567022175704",
+      "name": "iPhone 11",
+      "description": "The iPhone 11 is a smartphone designed, developed, and marketed by Apple Inc. It is the 13th generation, lower-priced iPhone, succeeding the iPhone XR. It was unveiled on September 10, 2019, alongside the higher-end iPhone 11 Pro flagship at the Steve Jobs Theater in Apple Park, Cupertino, by Apple CEO Tim Cook. Preorders began on September 13, 2019, and the phone was officially released on September 20, 2019, one day after the official public release of iOS 13."
+    },
+    {
+      "imgLink": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-blue-select-2020?wid=940&hei=1112&fmt=png-alpha&.v=1604343704000",
+      "name": "iPhone 12",
+      "description": "The iPhone 12 and iPhone 12 Mini (stylized as iPhone 12 mini) are smartphones designed, developed, and marketed by Apple Inc. They are the fourteenth-generation, lower-priced iPhones, succeeding the iPhone 11. They were unveiled at a virtually held Apple Special Event at Apple Park in Cupertino, California on October 13, 2020, alongside the higher-end iPhone 12 Pro and iPhone 12 Pro Max flagships. Pre-orders for the iPhone 12 started on October 16, 2020."
+    },
+    {
+      "imgLink": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-xr-red-select-201809?wid=940&hei=1112&fmt=png-alpha&.v=1551226038669",
+      "name": "iPhone XR",
+      "description": "The iPhone XR (stylized and marketed as iPhone Xʀ; Roman numeral pronounced )[16][17] is a smartphone designed and manufactured by Apple Inc. It is the twelfth generation of the iPhone. Pre-orders began on October 19, 2018, with an official release on October 26, 2018.[18] The phone has a 6.1-inch Liquid Retina LED-backlit LCD IPS panel display, which Apple claims is the most advanced LCD in the industry.It is the least expensive device in Apples iPhone X line of devices"
+    },
+    {
+      "imgLink": "https://images-na.ssl-images-amazon.com/images/I/41-HqZSahZL._AC_SY741_.jpg",
+      "name": "iPhone 10",
+      "description": "The iPhone X (Roman numeral  pronounced )[10][11] is a smartphone designed, developed, and marketed by Apple Inc. The eleventh generation of the iPhone, it was available to pre-order on October 27, 2017 and was released on November 3, 2017.The iPhone X used a glass and stainless-steel form factor and bezel-less design, shrinking the bezels while not having a chin, unlike many Android phones. It was the first iPhone to use an OLED screen. "
+    },
+    {
+      "imgLink": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-select-2019-family?wid=882&hei=1058&fmt=jpeg&qlt=80&.v=1567022175704",
+      "name": "iPhone 11",
+      "description": "The iPhone 11 is a smartphone designed, developed, and marketed by Apple Inc. It is the 13th generation, lower-priced iPhone, succeeding the iPhone XR. It was unveiled on September 10, 2019, alongside the higher-end iPhone 11 Pro flagship at the Steve Jobs Theater in Apple Park, Cupertino, by Apple CEO Tim Cook. Preorders began on September 13, 2019, and the phone was officially released on September 20, 2019, one day after the official public release of iOS 13."
+    },
+    {
+      "imgLink": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-blue-select-2020?wid=940&hei=1112&fmt=png-alpha&.v=1604343704000",
+      "name": "iPhone 12",
+      "description": "The iPhone 12 and iPhone 12 Mini (stylized as iPhone 12 mini) are smartphones designed, developed, and marketed by Apple Inc. They are the fourteenth-generation, lower-priced iPhones, succeeding the iPhone 11. They were unveiled at a virtually held Apple Special Event at Apple Park in Cupertino, California on October 13, 2020, alongside the higher-end iPhone 12 Pro and iPhone 12 Pro Max flagships. Pre-orders for the iPhone 12 started on October 16, 2020."
+    }
+  ]

@@ -1,11 +1,25 @@
-<span *ngFor="let product of arrayOfProduct">{{product}}</span>
-
-
-<h1 class="text-center mt-3 text-secondary fw-normal">Shop our Array of Products</h1>
-<div class="container">
-    <div class="row g-0 row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5 mb-5 g-3" data-masonry='{"percentPosition": true }'>
-        <div class="col mt-2 mb-2 " *ngFor="let card of arr">
-            <app-product-detals [item]=card (myEvent)="getDataFromChid($event)"></app-product-detals>
+<div class="container-fluid pt-3 p-0 m-0">
+    <div class="row g-0">
+        <div class="col-4 text-center">
+            <div class="border" type="button" routerLink="iphone" routerLinkActive="router-link-active">
+            <img class="img-responsive pt-3"  src="https://img.icons8.com/pastel-glyph/50/000000/iphone-x--v1.png" />
+            <h3 class="pb-">iPhones
+            </h3>
+            </div>
+        </div>
+        <div class="col-4 text-center" type="button" routerLink="ipad" routerLinkActive="router-link-active">
+            <div class="border">
+            <img class="img-responsive pt-1" src="https://img.icons8.com/wired/64/000000/ipad.png"/>
+            <h3>iPads</h3>
+            </div>
+        </div>       
+        <div class="col-4 text-center" type="button" routerLink="macbook" routerLinkActive="router-link-active">
+            <div class="border">
+            <img class="img-responsive" src="https://img.icons8.com/dotty/64/000000/laptop.png"/>
+            <h3>Macbooks</h3>
+            </div>
         </div>
     </div>
 </div>
+
+<router-outlet></router-outlet>

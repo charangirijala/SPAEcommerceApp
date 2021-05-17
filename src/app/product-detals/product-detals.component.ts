@@ -7,12 +7,5 @@ import { Product } from '../models/products.model';
   styleUrls: ['./product-detals.component.css']
 })
 export class ProductDetalsComponent{
-  @Input() item:Product;
 
-  //
-  @Output() myEvent= new EventEmitter();
-
-  sendDataToParent(productTitle){
-    this.myEvent.emit(productTitle);
-  }
 }

@@ -1,0 +1,14 @@
+h1{
+    font-size: 100px;
+    text-align: center;
+    background-image: linear-gradient(45deg, #f3ec78, #f80046);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+p{
+    text-align:center;
+    font-size: 30px;
+}

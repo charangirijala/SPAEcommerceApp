@@ -1,0 +1,16 @@
+<div class="container pt-5 pb-5">
+    <div class="row g-0">
+        <div *ngFor="let phone of iphones" class="col-4">
+            <div class="card">
+                <div class="card-body">
+                    <div class="text-center">
+                        <img [src]=phone.imgLink class="img-fluid" style="height:400px" alt="">
+                    </div>
+                    <h5 class="card-title">{{phone.name}}</h5>
+                    <p class="card-text">{{phone.description}}</p>
+                    <a href="#" class="btn btn-outline-success">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
